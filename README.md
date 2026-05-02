@@ -26,7 +26,7 @@ This project utilizes the following technologies to deliver a responsive, modern
 * **AOS (Animate On Scroll):** A lightweight JavaScript library that powers the smooth fade-up and slide-in animations triggered as the user scrolls down the page.
 * **FontAwesome:** A widely used icon library providing the crisp vector icons seen throughout the site (e.g., checkmarks, dumbbells, phone symbols, and social media links).
 
-## AI Usage Documentation
+## Use of AI Tools
 This document outlines how AI (Gemini) was utilized during the development of the Master Muscle website to assist with coding, debugging, and styling.
 
 ### 1. Implementing Website Animations
