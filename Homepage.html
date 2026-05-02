@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Muscle</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-black font-sans antialiased">
+
+    <nav class="bg-black border-b border-gray-800 sticky top-0 z-50">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 py-5 relative">
+            <a href="#" class="flex items-center space-x-4">
+                <img src="../images/logo.webp" alt="Master Muscle Logo"
+                    class="h-12 w-12 sm:h-17 sm:w-17 rounded-full object-cover border border-gray-700">
+                <span class="text-white self-center text-xl sm:text-2xl font-bold tracking-tight whitespace-nowrap">Master Muscle</span>
+            </a>
+
+            <button data-collapse-toggle="mobile-menu" type="button"
+                class="inline-flex items-center p-2 text-gray-400 rounded-lg lg:hidden hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-700" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M3 5h14a1 1 0 110 2H3a1 1 0 110-2zm0 4h14a1 1 0 110 2H3a1 1 0 110-2zm0 4h14a1 1 0 110 2H3a1 1 0 110-2z" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+
+            <div class="hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-md border-b border-gray-800 lg:static lg:block lg:w-auto lg:border-none lg:bg-transparent z-50 shadow-2xl" id="mobile-menu">
+                <ul class="flex flex-col p-6 lg:p-0 mt-0 font-medium lg:flex-row lg:space-x-10 lg:items-center">
+                    <li>
+                        <a href="Homepage.html" class="block py-3 lg:py-0 text-red-600 font-black tracking-widest border-b-2 border-red-600 pb-1 drop-shadow-[0_0_8px_rgba(220,38,38,0.5)]">Home</a>
+                    </li>
+                    <li>
+                        <a href="Services.html" class="block py-3 text-gray-300 hover:text-white transition-colors lg:py-0">Services</a>
+                    </li>
+                    <li>
+                        <a href="About.html" class="block py-3 text-gray-300 hover:text-white transition-colors lg:py-0">About</a>
+                    </li>
+                    <li>
+                        <a href="Contacts.html" class="block py-3 text-gray-300 hover:text-white transition-colors lg:py-0">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative isolate overflow-hidden bg-black min-h-screen flex flex-col">
+        <div class="absolute inset-0 -z-10">
+            <img src="../images/1.webp" alt="Gym background" class="h-full w-full object-cover object-bottom opacity-30">
+            <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+        </div>
+
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mx-auto max-w-2xl pt-32 pb-24 md:pt-48 md:pb-32 text-center">
+                <h1 data-aos="fade-up" class="text-5xl sm:text-6xl md:text-8xl font-bold tracking-tight text-white uppercase italic">
+                    Master Your Muscle
+                </h1>
+                <p data-aos="fade-up" data-aos-delay="200" class="mt-6 text-base sm:text-lg leading-8 text-gray-300 drop-shadow-lg px-2">
+                    <span class="block text-lg sm:text-xl md:text-2xl font-bold text-white mb-2">
+                        Premium coaching. Affordable for all.
+                    </span>
+                    Fitness isn't just for the rich, it's for those willing to put in the work.
+                    Join us and unleash your full potential.
+                </p>
+                <div data-aos="fade-up" data-aos-delay="400" class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-x-6">
+                    <a href="Services.html"
+                        class="w-full sm:w-auto rounded-md bg-white px-8 py-4 text-base font-bold text-black shadow-sm hover:bg-gray-200 transition-all uppercase text-center">Get
+                        started</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="py-16 md:py-24 max-w-7xl mx-auto px-4 sm:px-6">
+        <div data-aos="fade-up" class="text-center mb-10 md:mb-16">
+            <h2 class="text-red-700 font-bold tracking-widest uppercase text-center mb-2 md:mb-4 text-sm md:text-base">What we offer</h2>
+            <h3 class="text-3xl sm:text-4xl md:text-5xl font-black text-white text-center uppercase italic">Choose Your Path</h3>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+            <div data-aos="fade-up" data-aos-delay="100" class="bg-zinc-900 p-6 md:p-8 rounded-2xl border border-gray-800 hover:border-red-700 transition-all group">
+                <h4 class="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4">Walk-In Sessions</h4>
+                <p class="text-gray-400 mb-6 text-sm md:text-base">Full access to our gym facilities during open hours.</p>
+                <a href="Services.html" class="text-red-700 font-bold group-hover:underline inline-block">View Rates →</a>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="250" class="bg-zinc-900 p-6 md:p-8 rounded-2xl border border-gray-800 hover:border-red-700 transition-all group">
+                <h4 class="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4">Membership Training</h4>
+                <p class="text-gray-400 mb-6 text-sm md:text-base">Unlimited access to gym facilities with personalized training plans.</p>
+                <a href="Services.html" class="text-red-700 font-bold group-hover:underline inline-block">View Plans →</a>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="400" class="bg-zinc-900 p-6 md:p-8 rounded-2xl border border-gray-800 hover:border-red-700 transition-all group">
+                <h4 class="text-xl md:text-2xl font-bold text-white mb-3 md:mb-4">Personal Training</h4>
+                <p class="text-gray-400 mb-6 text-sm md:text-base">One-on-one coaching tailored to your specific body goals, injuries, and fitness level.</p>
+                <a href="Services.html" class="text-red-700 font-bold group-hover:underline inline-block">View Pricing →</a>
+            </div>
+        </div>
+    </section>
+
+   <section class="bg-white py-16 md:py-24 px-4 sm:px-6 overflow-hidden">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-center">
+            <div data-aos="fade-right">
+                <h2 class="text-red-700 font-bold uppercase tracking-widest mb-3 md:mb-4 text-lg md:text-xl text-center lg:text-left">The Antiqueño Standard</h2>
+                <h3 class="text-3xl sm:text-4xl md:text-5xl font-black text-black uppercase leading-tight mb-6 text-center lg:text-left">More than just iron and sweat.</h3>
+                <p class="text-gray-600 text-base md:text-lg mb-8 text-center lg:text-left">
+                    Master Muscle is San Jose's premier fitness hub. We believe that professional-grade coaching
+                    shouldn't be a luxury. From our "No-Ego" atmosphere to our hand-picked equipment, everything here is
+                    built to help you become the best version of yourself.
+                </p>
+                <ul class="space-y-4 max-w-md mx-auto lg:mx-0">
+                    <li class="flex items-center text-black font-bold">
+                        <span class="bg-red-700 text-white rounded-full p-1 mr-3 flex-shrink-0 text-sm">✓</span>
+                        Clean & Well-Ventilated Facility
+                    </li>
+                    <li class="flex items-center text-black font-bold">
+                        <span class="bg-red-700 text-white rounded-full p-1 mr-3 flex-shrink-0 text-sm">✓</span>
+                        Supportive Local Community
+                    </li>
+                </ul>
+            </div>
+
+            <div class="relative mt-12 lg:mt-0" data-aos="fade-left">
+                <img src="../images/logo.webp" 
+                    class="rounded-2xl shadow-2xl w-full h-72 sm:h-96 lg:h-[500px] object-cover object-center"
+                    alt="Gym Culture">
+                
+                <div class="absolute -bottom-4 -left-4 md:-bottom-6 md:-left-6 bg-red-700 text-white p-6 md:p-8 rounded-xl hidden sm:block shadow-2xl transform hover:scale-105 transition-transform">
+                    <p class="text-2xl md:text-4xl font-black italic tracking-tighter">EST. 2021</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-black border-t border-gray-900 py-10 mt-12 md:mt-20">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 text-center">
+            <p class="text-gray-500 text-xs sm:text-sm tracking-widest uppercase">
+                &copy; 2021 - 2026 <span class="text-white font-bold">Master Muscle</span>. All Rights Reserved.
+            </p>
+            <p class="text-gray-700 text-xs mt-2 italic">
+                San Jose, Antique
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50 
+        });
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Master Muscle - Services</title>
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-black font-sans antialiased">
+
+    <nav class="bg-black border-b border-gray-800 sticky top-0 z-50">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl px-4 py-5 relative">
+            <a href="Homepage.html" class="flex items-center space-x-4">
+                <img src="../images/logo.webp" alt="Master Muscle Logo"
+                    class="h-12 w-12 sm:h-17 sm:w-17 rounded-full object-cover border border-gray-700">
+                <span class="text-white self-center text-xl sm:text-2xl font-bold tracking-tight whitespace-nowrap">Master Muscle</span>
+            </a>
+
+            <button data-collapse-toggle="mobile-menu" type="button"
+                class="inline-flex items-center p-2 text-gray-400 rounded-lg lg:hidden hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-gray-700" aria-controls="mobile-menu" aria-expanded="false">
+                <span class="sr-only">Open main menu</span>
+                <svg class="w-7 h-7" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M3 5h14a1 1 0 110 2H3a1 1 0 110-2zm0 4h14a1 1 0 110 2H3a1 1 0 110-2zm0 4h14a1 1 0 110 2H3a1 1 0 110-2z" clip-rule="evenodd"></path>
+                </svg>
+            </button>
+
+            <div class="hidden absolute top-full left-0 w-full bg-black/95 backdrop-blur-md border-b border-gray-800 lg:static lg:block lg:w-auto lg:border-none lg:bg-transparent z-50 shadow-2xl" id="mobile-menu">
+                <ul class="flex flex-col p-6 lg:p-0 mt-0 font-medium lg:flex-row lg:space-x-10 lg:items-center">
+                    <li>
+                        <a href="Homepage.html" class="block py-3 text-gray-300 hover:text-white transition-colors lg:py-0">Home</a>
+                    </li>
+                    <li>
+                        <a href="Services.html" class="block py-3 lg:py-0 text-red-600 font-black tracking-widest border-b-2 border-red-600 pb-1 drop-shadow-[0_0_8px_rgba(220,38,38,0.5)]">Services</a>
+                    </li>
+                    <li>
+                        <a href="About.html" class="block py-3 text-gray-300 hover:text-white transition-colors lg:py-0">About</a>
+                    </li>
+                    <li>
+                        <a href="Contacts.html" class="block py-3 text-gray-300 hover:text-white transition-colors lg:py-0">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="max-w-screen-xl mx-auto px-4 sm:px-5 py-12 md:py-20 overflow-hidden">
+        <div class="text-center mb-10 md:mb-16" data-aos="fade-up">
+            <h2 class="text-red-700 font-black uppercase tracking-widest text-lg md:text-xl">Our Rates</h2>
+            <h1 class="text-4xl sm:text-5xl md:text-7xl font-black text-white uppercase italic leading-tight">Choose Your Strength</h1>
+            <p class="text-gray-300 mt-2 md:mt-4 uppercase tracking-wider font-bold mb-6 md:mb-10 text-sm md:text-base">Premium fitness. No excuses.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div data-aos="fade-up" data-aos-delay="100" class="bg-zinc-900 border border-gray-800 p-6 rounded-2xl flex flex-col justify-between hover:border-red-700 transition-all group">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-white text-xl font-black uppercase">Walk-In</h3>
+                        <i class="fa-solid fa-bolt text-red-700 text-xl"></i>
+                    </div>
+                    <p class="text-4xl font-black text-white mb-2">₱60</p>
+                    <p class="text-red-700 text-[10px] font-black uppercase mb-6 tracking-widest">*Single Entry Only</p>
+                    <ul class="text-gray-200 space-y-3 mb-8 text-sm font-bold">
+                        <li><i class="fa-solid fa-check text-red-600 mr-2"></i> Full Equipment Access</li>
+                        <li><i class="fa-solid fa-xmark text-red-600 mr-2"></i> No Re-entry</li>
+                        <li><i class="fa-solid fa-clock text-red-600 mr-2"></i> Open 6AM - 7PM</li>
+                    </ul>
+                </div>
+                <a href="Contacts.html" class="block text-center border border-gray-600 text-white py-3 rounded-lg font-black uppercase text-xs group-hover:bg-white group-hover:text-black transition-all">Visit Gym</a>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="bg-zinc-900 border-2 border-red-700 p-6 rounded-2xl flex flex-col justify-between relative shadow-2xl transform lg:scale-105 z-10">
+                <span class="absolute -top-3 left-1/2 -translate-x-1/2 bg-red-700 text-white px-3 py-1 rounded-full text-[10px] font-black uppercase tracking-widest whitespace-nowrap">Most Popular</span>
+                <div>
+                    <h3 class="text-white text-xl font-black uppercase mb-6 text-center">Monthly</h3>
+                    <div class="space-y-4 mb-6">
+                        <div class="flex justify-between items-center border-b border-gray-800 pb-2">
+                            <span class="text-gray-200 text-sm font-bold uppercase">Regular</span>
+                            <span class="text-2xl font-black text-white">₱800</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-200 text-sm font-bold uppercase">Student</span>
+                            <span class="text-2xl font-black text-red-600">₱600</span>
+                        </div>
+                    </div>
+                    <p class="text-[11px] text-gray-400 font-black uppercase text-center mb-6">₱1,000 First Month Registration</p>
+                    <ul class="text-gray-200 space-y-2 text-xs font-bold mb-8">
+                        <li><i class="fa-solid fa-check text-red-600 mr-2"></i> Unlimited Re-entry</li>
+                        <li><i class="fa-solid fa-check text-red-600 mr-2"></i> 7 Days Access</li>
+                    </ul>
+                </div>
+                <a href="Contacts.html" class="block text-center bg-red-700 text-white py-3 rounded-lg font-black uppercase text-xs tracking-widest hover:bg-red-800 transition-all shadow-lg shadow-red-900/40">Join Now</a>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="300" class="bg-zinc-900 border border-gray-800 p-6 rounded-2xl flex flex-col justify-between hover:border-red-700 transition-all group">
+                <div>
+                    <h3 class="text-white text-xl font-black uppercase mb-6 text-center">Yearly Sub</h3>
+                    <div class="space-y-4 mb-6">
+                        <div class="flex justify-between items-center border-b border-gray-800 pb-2">
+                            <span class="text-gray-200 text-sm font-bold uppercase">Regular</span>
+                            <span class="text-2xl font-black text-white">₱500</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-gray-200 text-sm font-bold uppercase">Student</span>
+                            <span class="text-2xl font-black text-red-600">₱400</span>
+                        </div>
+                    </div>
+                    <p class="text-[11px] text-gray-400 font-black uppercase text-center mb-6 tracking-wide">Rates per month</p>
+                    <ul class="text-gray-200 space-y-2 text-xs font-bold mb-8">
+                        <li><i class="fa-solid fa-star text-red-600 mr-2"></i> Lowest Possible Rate</li>
+                        <li><i class="fa-solid fa-check text-red-600 mr-2"></i> All Member Benefits</li>
+                    </ul>
+                </div>
+                <a href="Contacts.html" class="block text-center border border-gray-600 text-white py-3 rounded-lg font-black uppercase text-xs group-hover:bg-white group-hover:text-black transition-all">Go Yearly</a>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="400" class="bg-zinc-900 border border-gray-800 p-6 rounded-2xl flex flex-col justify-between hover:border-red-700 transition-all group">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-white text-xl font-black uppercase">Coaching</h3>
+                        <i class="fa-solid fa-dumbbell text-red-700 text-xl"></i>
+                    </div>
+                    <p class="text-4xl font-black text-white mb-1">₱1,000</p>
+                    <p class="text-red-700 text-[10px] font-black uppercase mb-6 tracking-widest">6 Sessions with Trainer</p>
+                    <ul class="text-gray-200 space-y-3 mb-8 text-sm font-bold">
+                        <li><i class="fa-solid fa-check text-red-600 mr-2"></i> One to one instruction</li>
+                        <li><i class="fa-solid fa-check text-red-600 mr-2"></i> Proper form correction</li>
+                        <li><i class="fa-solid fa-check text-red-600 mr-2"></i> Personalized work plan</li>
+                    </ul>
+                </div>
+                <a href="Contacts.html" class="block text-center border border-gray-600 text-white py-3 rounded-lg font-black uppercase text-xs group-hover:bg-white group-hover:text-black transition-all">Inquire</a>
+            </div>
+        </div>
+
+        <p data-aos="fade-up" data-aos-delay="500" class="text-center text-gray-400 text-[11px] font-black uppercase tracking-widest mt-8 italic px-2">
+            * Please present a valid Student ID to avail of discounted student rates.
+        </p>
+    </section>
+
+    <section class="max-w-screen-xl mx-auto px-4 sm:px-5 py-12 md:py-20 border-t border-zinc-900 overflow-hidden">
+        <div class="mb-10 md:mb-12 text-center md:text-left" data-aos="fade-right">
+            <h2 class="text-red-700 font-black uppercase tracking-widest text-lg md:text-xl">The Facilities</h2>
+            <h1 class="text-3xl sm:text-4xl md:text-6xl font-black text-white uppercase italic">Elite Service</h1>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+            
+            <div data-aos="fade-up" data-aos-delay="100" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/8.webp" alt="Treadmills" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Supported & Unsupported Benchpress</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Pump your Chest out with our state-of-the-art bench press machines.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Chest</span>
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Safety</span>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/9.webp" alt="Dumbbells" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Lat Pull-Down Machine</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Get a Demonic Back Like Yujiro Hanma with our state-of-the-art lat pull-down machine.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Back</span>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="300" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/10.webp" alt="Machines" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Leg Presses</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Make Those Legs Shake with our state-of-the-art leg press machines.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Legs</span>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="100" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/11.webp" alt="Power Racks" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Weighted Benchpress</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Build Chest Strength with our heavy-duty bench press machines.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Chest</span>
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Modularity</span>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/12.webp" alt="Turf Area" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Local Cat</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Have a Break and Relax by Petting Our Friendly and Well Behaved Nekos</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Friendly</span>
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Emotional Support</span>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="300" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/13.webp" alt="Kettlebells" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Dumbbell Corner</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Wide assortment of dumbbells for all fitness levels and training goals.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Variety</span>
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Strength</span>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="100" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/14.webp" alt="Cable Machines" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Chest Press</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Feel DePressure on that chest and relapse behind the gym's own sound system</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Chest</span>
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">#Iniwan</span>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/15.webp" alt="Boxing Station" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Cable Machines</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Versatile cable machines for a wide range of exercises targeting different muscle groups.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Variety</span>
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Cable</span>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="300" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/16.webp" alt="Recovery Zone" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Hip Abductor</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Spread those legs and improve your hip mobility with our dedicated abductor machine.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Mobility</span>
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Stretch</span>
+                    </div>
+                </div>
+            </div>
+            <div data-aos="fade-up" data-aos-delay="100" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/17.webp" alt="Cable Machines" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Stationary Bike</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Get your heart rate up and build endurance with our high-quality stationary bikes.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Cardio</span>
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Endurance</span>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/18.webp" alt="Boxing Station" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Balcony View</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Take a break and relax while enjoying the view from our balcony.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">View</span>
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Relaxation</span>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="300" class="group relative overflow-hidden rounded-2xl bg-zinc-900 border border-gray-800">
+                <div class="aspect-square w-full bg-zinc-800 overflow-hidden">
+                    <img src="../images/19.webp" alt="Recovery Zone" class="w-full h-full object-cover group-hover:scale-110 transition-all duration-500">
+                </div>
+                <div class="p-6">
+                    <h3 class="text-white text-xl md:text-2xl font-black uppercase italic mb-2">Abs Corner</h3>
+                    <p class="text-gray-400 text-sm font-medium leading-relaxed">Focus on your core with our dedicated abdominal training area.</p>
+                    <div class="mt-4 flex flex-wrap gap-2">
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Core</span>
+                        <span class="text-[10px] bg-red-700/20 text-red-500 px-2 py-1 rounded font-black uppercase">Strength</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-black border-t border-gray-900 py-10 mt-12 md:mt-20">
+        <div class="max-w-screen-xl mx-auto px-4 sm:px-6 text-center">
+            <p class="text-gray-500 text-xs sm:text-sm tracking-widest uppercase">
+                &copy; 2021 - 2026 <span class="text-white font-bold">Master Muscle</span>. All Rights Reserved.
+            </p>
+            <p class="text-gray-700 text-xs mt-2 italic">
+                San Jose, Antique
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 50
+        });
+    </script>
+</body>
+
+</html>
