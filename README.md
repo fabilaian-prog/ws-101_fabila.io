@@ -31,6 +31,7 @@ This document outlines how AI (Gemini) was utilized during the development of th
 
 ### 1. Implementing Website Animations
 **Purpose:** To learn how to add smooth scroll animations to the website elements to make the user experience more dynamic.
+<br>
 **Prompt Used:**
 > "How do I create animations for my website so that when its opened it will have animation"
 
@@ -38,6 +39,7 @@ This document outlines how AI (Gemini) was utilized during the development of th
 
 ### 2. Fixing and Customizing the Carousel
 **Purpose:** To troubleshoot a glitchy Flowbite carousel and convert its default sideways sliding animation into a seamless fade transition.
+<br>
 **Prompt Used:**
 > "Fix this block of code for a carousel because the animation is glitchy, make it fade and not move sideways when clicking on the next image"
 
@@ -45,6 +47,7 @@ This document outlines how AI (Gemini) was utilized during the development of th
 
 ### 3. Adjusting Image Opacity for Text Readability
 **Purpose:** To figure out the best CSS approach to darken a background image so that the overlaying text stands out clearly.
+<br>
 **Prompt Used:**
 > "How do I make this image darker for my text to be seen better"
 
@@ -52,6 +55,7 @@ This document outlines how AI (Gemini) was utilized during the development of th
 
 ### 4. Spacing, Padding, and Margin Inconcistencies
 **Purpose:** To figure out the best CSS approach to darken a background image so that the overlaying text stands out clearly.
+<br>
 **Prompt Used:**
 > "Fix the Spacing in (insert part of code here) so that (insert what needs to happen)"
 
@@ -59,6 +63,7 @@ This document outlines how AI (Gemini) was utilized during the development of th
 
 ### 5. Fixing HTML Syntax Errors and Broken Layouts
 **Purpose:** To debug sections of the website where the layout was breaking or elements were bleeding into each other.
+<br>
 **Prompt Used:** 
 > "fix the personal trqiners"
 
@@ -66,6 +71,7 @@ This document outlines how AI (Gemini) was utilized during the development of th
 
 ### 6. Standardizing the Navigation Bar and Mobile Menu
 **Purpose:** To make the header consistent across all 4 pages and fix an issue where opening the mobile menu pushed the rest of the website down.
+<br>
 **Prompt Used:** 
 > "can you make the spacing of the header on all 4 consistent, give me the codes of the header part"
 
@@ -73,6 +79,7 @@ This document outlines how AI (Gemini) was utilized during the development of th
 
 ### 7. Expanding Responsive Grids & Generating Structure
 **Purpose:** To expand the "Arsenal/Facilities" section from a single row into a full 3-row grid for better desktop viewing.
+<br>
 **Prompt Used:** 
 > "can you make the pictures on the arsenal have like 3 rows? give full code"
 
@@ -80,6 +87,7 @@ This document outlines how AI (Gemini) was utilized during the development of th
 
 ### 8. Adjusting Image Aspect Ratios
 **Purpose:** To make the equipment images taller and more prominent on the screen rather than wide and narrow.
+<br>
 **Prompt Used:** 
 > "make the pictures at the facilities have higher height"
 
