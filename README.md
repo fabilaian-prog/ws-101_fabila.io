@@ -9,7 +9,7 @@
 - [Creator](#creator)
 - [Short Overview](#short-overview)
 - [Frameworks & Libraries Used](#frameworks--libraries-used)
-- [AI Usage Documentation](#ai-usage-documentation)
+- [AI Usage Documentation](#use-of-ai-tools)
 
 ---
 
